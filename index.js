@@ -14,7 +14,7 @@ function addToCart(item) {
   myCart = setCart(cart)
    myItem = Object.new({itemName: item, itemPrice: Math.random()})
    cart.push(myItem)
-   
+
 }
 
 function viewCart() {
