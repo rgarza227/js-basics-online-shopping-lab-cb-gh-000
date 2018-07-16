@@ -10,9 +10,9 @@ function setCart(c) {
 }
 
 function addToCart(item) {
-  myItem = Object.new({itemName: item, itemPrice: Math.random()})
+  myItem = new Object({itemName: item, itemPrice: Math.random()})
   cart.push(myItem)
-  return cart
+  
 }
 
 function viewCart() {
