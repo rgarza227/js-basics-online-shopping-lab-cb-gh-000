@@ -10,7 +10,7 @@ function setCart(c) {
 }
 
 function addToCart(item) {
- myItem = Object.new({itemName: item, itemPrice: 0})
+ myItem = Object.new({itemName: ${item}, itemPrice: 0})
  cart.push(myItem)
 }
 
